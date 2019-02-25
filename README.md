@@ -6,8 +6,11 @@ Fully customizable Card View for React Native.
 [![npm downloads](https://img.shields.io/npm/dm/@paraboly/react-native-card.svg)](https://www.npmjs.com/package/@paraboly/react-native-card)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-<p align="center">
+<p align="left">
 <img alt="Paraboly React Native Card" src="https://github.com/Paraboly/react-native-card/blob/master/assets/Screenshots/example.png" width="49.7%"/>
+</p>
+<p align="right">
+<img alt="Paraboly React Native Card" src="https://github.com/Paraboly/react-native-card/blob/master/assets/Screenshots/example2.png" width="49.7%"/>
 </p>
 
 ## Installation
@@ -48,13 +51,14 @@ npm i @paraboly/react-native-card
 
 ```ruby
 <Card
-  iconDisable={false}
   iconName="home"
   iconType="Entypo"
+  defaultTitle=""
   numberOfLines={3}
   title="Title"
-  content="Lorem Ipsum"
-  rightBottomText="1.3"
+  content="Lorem ipsum dolor sit amet"
+  defaultContent=""
+  rightBottomText="30"
   onPress={() => {}}
 />
 ```

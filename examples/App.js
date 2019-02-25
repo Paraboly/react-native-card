@@ -7,16 +7,6 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Card
-          iconDisable
-          defaultTitle=""
-          numberOfLines={3}
-          title="Title"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          defaultContent=""
-          rightBottomText="30 km"
-          onPress={() => {}}
-        />
-        <Card
           iconName="home"
           iconType="Entypo"
           defaultTitle=""
