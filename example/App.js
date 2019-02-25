@@ -1,21 +1,27 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Card from "../src";
+import Card from "@paraboly/react-native-card";
+import PropTypes from "prop-types";
 
-const App = () => (
-  <View style={styles.container}>
-    <Card
-      iconDisable
-      defaultTitle=""
-      numberOfLines={3}
-      title="Title"
-      content="Display Address"
-      defaultContent=""
-      rightBottomText="134 km"
-      onPress={() => {}}
-    />
-  </View>
-);
+export default class App extends React.Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Card
+          iconDisable
+          defaultTitle=""
+          numberOfLines={3}
+          title="Title"
+          content="Display Address"
+          defaultContent=""
+          rightBottomText="134 km"
+          onPress={() => {}}
+        />
+        <Text>Open up App.js to start working on your app!</Text>
+      </View>
+    );
+  }
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -25,5 +31,3 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   }
 });
-
-export default App;
