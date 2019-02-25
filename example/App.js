@@ -1,7 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import Card from "@paraboly/react-native-card";
-import PropTypes from "prop-types";
 
 export default class App extends React.Component {
   render() {
