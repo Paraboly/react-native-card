@@ -1,6 +1,6 @@
 {
   "name": "@paraboly/react-native-card",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Fully customizable Card View for React Native.",
   "keywords": [
     "react-native",

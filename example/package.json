@@ -7,7 +7,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@paraboly/react-native-card": "0.0.7",
+    "@paraboly/react-native-card": "0.0.8",
     "expo": "^32.0.0",
     "prop-types": "^15.7.2",
     "randomcolor": "^0.5.4",

@@ -7,7 +7,6 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Card
-          iconDisable
           defaultTitle=""
           numberOfLines={3}
           title="Title"
@@ -17,6 +16,7 @@ export default class App extends React.Component {
           onPress={() => {}}
         />
         <Card
+          iconDisable={false}
           iconName="home"
           iconType="Entypo"
           defaultTitle=""
