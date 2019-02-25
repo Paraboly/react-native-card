@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "example",
-    "slug": "example",
+    "name": "examples",
+    "slug": "examples",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [

@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import Card from "@paraboly/react-native-card";
 
 export default class App extends React.Component {
@@ -17,7 +17,6 @@ export default class App extends React.Component {
           onPress={() => {}}
         />
         <Card
-          iconDisable={false}
           iconName="home"
           iconType="Entypo"
           defaultTitle=""

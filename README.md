@@ -67,24 +67,24 @@ npm i @paraboly/react-native-card
 ### Configuration - Props
 
 
-| Property              |   Type    |  Default   | Description                                                         |
-| --------------------- | :-------: | :--------: | ------------------------------------------------------------------- |
-| height                |  number   |     50     | use this to change the header's height                              |
-| width                 |  number   |    100%    | use this to change the header's width                               |
-| hitSlops              |  object   | object: 30 | use this to change the header's left and right components' hitSlots |
-| bottomStick           |  boolean  |   false    | stick the header to bottom side                                     |
-| headerTitle           |  string   |     ""     | use this to set header's title                                      |
-| backgroundColor       |   color   |  #ffffff   | use this to change the header's background color                    |
-| leftComponent         | component |    Icon    | set the left component                                              |
-| leftComponentStyle    |   style   |   style    | set the left component's style                                      |
-| leftComponentDisable  |  boolean  |   false    | disable the left component                                          |
-| leftComponentOnPress  | function  |    null    | set the left component's onPress function                           |
-| rightComponent        | component |    Icon    | set the right component                                             |
-| rightComponentStyle   |   style   |   style    | set the right component's style                                     |
-| rightComponentDisable |  boolean  |   false    | disable the right component                                         |
-| rightComponentOnPress | function  |    null    | set the right component's onPress function                          |
-| centerComponent       | component |    Icon    | set the center component                                            |
-| centerComponentStyle  |   style   |   style    | set the center component's style                                    |
+| Property            |   Type   |       Default        | Description                                        |
+| ------------------- | :------: | :------------------: | -------------------------------------------------- |
+| title               |  string  |          ""          | use this to change the title                       |
+| style               |  style   |        style         | use this to change the main container's style      |
+| onPress             | function |         null         | set the onPress function                           |
+| content             |  string  |          ""          | set content                                        |
+| iconName            |  string  |        "home"        | set icon from dynamic vector icons                 |
+| iconColor           |  color   |       #ffffff        | set icon's color                                   |
+| iconSize            |  number  |          16          | set icon's size                                    |
+| iconType            |  string  |       "Entypo"       | set icon's family type                             |
+| iconDisable         | boolean  |        false         | disable the whole icon component                   |
+| shadowStyle         |  style   | default shadow style | change the card's shadow style                     |
+| defaultTitle        |  string  |          ""          | set the default title if title prop is not set     |
+| defaultContent      |  string  |          ""          | set the default content if content prop is not set |
+| numberOfLines       |  number  |          3           | set number of lines for the content                |
+| rightBottomText     |  string  |          ""          | set the right bottom text                          |
+| containerHeight     |  number  |         null         | set the content's container height                 |
+| iconBackgroundColor |  color   |        "#fff"        | set the icon's background color                    |
 
 
 ## Author
