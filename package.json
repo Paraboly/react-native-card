@@ -1,6 +1,6 @@
 {
   "name": "@paraboly/react-native-card",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Fully customizable Card View for React Native.",
   "keywords": [
     "react-native",
@@ -10,6 +10,9 @@
     "rn",
     "card",
     "view"
+  ],
+  "files": [
+    "./lib"
   ],
   "homepage": "https://www.paraboly.com",
   "bugs": "https://github.com/Paraboly/react-native-card/issues",
