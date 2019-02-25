@@ -14,6 +14,7 @@ export default class App extends React.Component {
           title="Title"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           defaultContent=""
+          rightTopText="50/301"
           rightBottomText="30 km"
           onPress={() => {}}
         />
