@@ -11,12 +11,11 @@ export default class App extends React.Component {
           defaultTitle=""
           numberOfLines={3}
           title="Title"
-          content="Display Address"
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           defaultContent=""
-          rightBottomText="134 km"
+          rightBottomText="30 km"
           onPress={() => {}}
         />
-        <Text>Open up App.js to start working on your app!</Text>
       </View>
     );
   }
