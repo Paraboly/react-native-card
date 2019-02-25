@@ -1,13 +1,13 @@
 <img alt="Paraboly React Native Card" src="https://github.com/Paraboly/react-native-card/blob/master/assets/Screenshots/logo.png" width="1050"/>
 
-Fully customizable Header View for React Native.
+Fully customizable Card View for React Native.
 
 [![npm version](https://img.shields.io/npm/v/@paraboly/react-native-card.svg)](https://www.npmjs.com/package/@paraboly/react-native-card)
 [![npm downloads](https://img.shields.io/npm/dm/@paraboly/react-native-card.svg)](https://www.npmjs.com/package/@paraboly/react-native-card)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-<img alt="React Native Header View" src="https://github.com/Paraboly/react-native-card/blob/master/assets/Screenshots/example.png" width="49.7%"/>
+<img alt="Paraboly React Native Card" src="https://github.com/Paraboly/react-native-card/blob/master/assets/Screenshots/example.png" width="49.7%"/>
 </p>
 
 ## Installation
@@ -44,6 +44,21 @@ npm i @paraboly/react-native-card
 />
 ```
 
+## Card with Icon
+
+```ruby
+<Card
+  iconDisable={false}
+  iconName="home"
+  iconType="Entypo"
+  numberOfLines={3}
+  title="Title"
+  content="Lorem Ipsum"
+  rightBottomText="1.3"
+  onPress={() => {}}
+/>
+```
+
 ### Example Application
 
 - [check the code](examples/App.js), and yes! :) all of the images, screenshots are directly taken
@@ -71,14 +86,11 @@ npm i @paraboly/react-native-card
 | centerComponent       | component |    Icon    | set the center component                                            |
 | centerComponentStyle  |   style   |   style    | set the center component's style                                    |
 
-# Change Log
-
-## [0.2.0](https://github.com/wrathchaos/react-native-header-view/tree/0.2.0) (2019-02-23)
 
 ## Author
 
-FreakyCoder, kurayogun@gmail.com
+FreakyCoder, kurayogun@gmail.com | kuray.ogun@paraboly.com
 
 ## License
 
-React Native Header View Library is available under the MIT license. See the LICENSE file for more info.
+Paraboly React Native Card Library is available under the MIT license. See the LICENSE file for more info.
