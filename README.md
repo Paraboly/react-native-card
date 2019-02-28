@@ -90,7 +90,7 @@ npm i @paraboly/react-native-card
 | topRightFontSize     |  number   |          16          | set the top right text's font size                 |
 | topRightColor        |   color   |      "#505e80"       | set the top right text's font color                |
 | containerHeight      |  number   |         null         | set the content's container height                 |
-| iconBackgroundColor  |   color   |        "#fff"        | set the icon's background color                    |
+| iconBackgroundColor  |   color   |        "pink"        | set the icon's background color                    |
 
 
 ## Author
