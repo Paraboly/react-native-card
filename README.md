@@ -25,7 +25,6 @@ npm i @paraboly/react-native-card
 
 ```
 "react": ">= 16.x",
-"randomcolor": ">= 0.5.x",
 "react-native": ">= 0.55.x",
 "react-native-material-ripple": ">= 0.8.x",
 "react-native-iphone-x-helper": ">= 1.2.x",

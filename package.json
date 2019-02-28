@@ -1,6 +1,6 @@
 {
   "name": "@paraboly/react-native-card",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Fully customizable Card View for React Native.",
   "keywords": [
     "react-native",
@@ -19,7 +19,6 @@
   "license": "MIT",
   "peerDependencies": {
     "react": ">= 16.x",
-    "randomcolor": ">= 0.5.x",
     "react-native": ">= 0.55.x",
     "react-native-material-ripple": ">= 0.8.x",
     "react-native-iphone-x-helper": ">= 1.2.x",

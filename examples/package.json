@@ -7,9 +7,8 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@paraboly/react-native-card": "^0.1.13",
+    "@paraboly/react-native-card": "^0.1.14",
     "expo": "^32.0.0",
-    "randomcolor": "^0.5.4",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
     "react-native-dynamic-vector-icons": "0.0.3",
