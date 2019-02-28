@@ -12,7 +12,6 @@ export default class App extends React.Component {
           defaultTitle=""
           iconType="Entypo"
           defaultContent=""
-          numberOfLines={3}
           onPress={() => {}}
           topRightText="50/301"
           bottomRightText="30 km"
