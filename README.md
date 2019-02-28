@@ -37,10 +37,9 @@ npm i @paraboly/react-native-card
 ```ruby
  <Card
   iconDisable
-  numberOfLines={3}
   title="Title"
   content="Main Content"
-  rightBottomText="30"
+  bottomRightText="30"
   onPress={() => {}}
 />
 ```
@@ -49,15 +48,15 @@ npm i @paraboly/react-native-card
 
 ```ruby
 <Card
-  iconName="home"
-  iconType="Entypo"
-  defaultTitle=""
-  numberOfLines={3}
   title="Title"
-  content="Lorem ipsum dolor sit amet"
+  iconName="home"
+  defaultTitle=""
+  iconType="Entypo"
   defaultContent=""
-  rightBottomText="30"
   onPress={() => {}}
+  topRightText="50/301"
+  bottomRightText="30 km"
+  content="Lorem ipsum dolor sit."
 />
 ```
 
@@ -69,24 +68,30 @@ npm i @paraboly/react-native-card
 ### Configuration - Props
 
 
-| Property            |   Type   |       Default        | Description                                        |
-| ------------------- | :------: | :------------------: | -------------------------------------------------- |
-| title               |  string  |          ""          | use this to change the title                       |
-| style               |  style   |        style         | use this to change the main container's style      |
-| onPress             | function |         null         | set the onPress function                           |
-| content             |  string  |          ""          | set content                                        |
-| iconName            |  string  |        "home"        | set icon from dynamic vector icons                 |
-| iconColor           |  color   |       #ffffff        | set icon's color                                   |
-| iconSize            |  number  |          16          | set icon's size                                    |
-| iconType            |  string  |       "Entypo"       | set icon's family type                             |
-| iconDisable         | boolean  |        false         | disable the whole icon component                   |
-| shadowStyle         |  style   | default shadow style | change the card's shadow style                     |
-| defaultTitle        |  string  |          ""          | set the default title if title prop is not set     |
-| defaultContent      |  string  |          ""          | set the default content if content prop is not set |
-| numberOfLines       |  number  |          3           | set number of lines for the content                |
-| rightBottomText     |  string  |          ""          | set the right bottom text                          |
-| containerHeight     |  number  |         null         | set the content's container height                 |
-| iconBackgroundColor |  color   |        "#fff"        | set the icon's background color                    |
+| Property             |   Type    |       Default        | Description                                        |
+| -------------------- | :-------: | :------------------: | -------------------------------------------------- |
+| title                |  string   |          ""          | use this to change the title                       |
+| style                |   style   |        style         | use this to change the main container's style      |
+| onPress              | function  |         null         | set the onPress function                           |
+| content              |  string   |          ""          | set content                                        |
+| iconName             |  string   |        "home"        | set icon from dynamic vector icons                 |
+| iconColor            |   color   |       #ffffff        | set icon's color                                   |
+| iconSize             |  number   |          16          | set icon's size                                    |
+| iconType             |  string   |       "Entypo"       | set icon's family type                             |
+| iconDisable          |  boolean  |        false         | disable the whole icon component                   |
+| shadowStyle          |   style   | default shadow style | change the card's shadow style                     |
+| defaultTitle         |  string   |          ""          | set the default title if title prop is not set     |
+| defaultContent       |  string   |          ""          | set the default content if content prop is not set |
+| bottomRightComponent | component |      component       | use your own component for bottom right side       |
+| bottomRightText      |  string   |          ""          | set the bottom right text                          |
+| bottomRightFontSize  |  number   |          20          | set the bottom right text's font size              |
+| bottomRightColor     |   color   |      "#505e80"       | set the bottom right text's font color             |
+| topRightComponent    | component |      component       | use your own component for top right side          |
+| topRightText         |  string   |          ""          | set the top right text                             |
+| topRightFontSize     |  number   |          16          | set the top right text's font size                 |
+| topRightColor        |   color   |      "#505e80"       | set the top right text's font color                |
+| containerHeight      |  number   |         null         | set the content's container height                 |
+| iconBackgroundColor  |   color   |        "#fff"        | set the icon's background color                    |
 
 
 ## Author
