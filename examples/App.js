@@ -7,7 +7,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Card
-          title="Title"
+          title="Title123123123123123123123123123123sadasdasd"
           iconName="home"
           defaultTitle=""
           iconType="Entypo"
@@ -16,7 +16,7 @@ export default class App extends React.Component {
           topRightText="50/301"
           bottomRightText="30 km"
           iconBackgroundColor="#fcdab5"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          content=""
         />
       </View>
     );
