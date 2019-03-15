@@ -1,13 +1,14 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import Card from "@paraboly/react-native-card";
+// import Card from "@paraboly/react-native-card";
+import Card from "./lib/src/Card";
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Card
-          title="Title123123123123123123123123123123sadasdasd"
+          title="Title"
           iconName="home"
           defaultTitle=""
           iconType="Entypo"
@@ -16,7 +17,7 @@ export default class App extends React.Component {
           topRightText="50/301"
           bottomRightText="30 km"
           iconBackgroundColor="#fcdab5"
-          content=""
+          content="Lorem impsum"
         />
       </View>
     );
