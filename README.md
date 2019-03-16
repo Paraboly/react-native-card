@@ -3,7 +3,6 @@
 Fully customizable Card View for React Native.
 
 [![npm version](https://img.shields.io/npm/v/@paraboly/react-native-card.svg)](https://www.npmjs.com/package/@paraboly/react-native-card)
-
 [![npm](https://img.shields.io/npm/dt/@paraboly/react-native-card.svg)](https://www.npmjs.org/package/@paraboly/react-native-card)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
