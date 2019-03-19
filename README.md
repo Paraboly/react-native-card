@@ -73,6 +73,7 @@ npm i @paraboly/react-native-card
 | style                |   style   |        style         | use this to change the main container's style      |
 | onPress              | function  |         null         | set the onPress function                           |
 | content              |  string   |          ""          | set content                                        |
+| iconComponent        | component |         Icon         | use your own icon component                        |
 | iconName             |  string   |        "home"        | set icon from dynamic vector icons                 |
 | iconColor            |   color   |       #ffffff        | set icon's color                                   |
 | iconSize             |  number   |          16          | set icon's size                                    |
