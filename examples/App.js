@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-// import Card from "@paraboly/react-native-card";
-import Card from "./lib/src/Card";
+import Card from "@paraboly/react-native-card";
+// import Card from "./lib/src/Card";
 
 export default class App extends React.Component {
   render() {
@@ -17,6 +17,16 @@ export default class App extends React.Component {
           topRightText="50/301"
           bottomRightText="30 km"
           iconBackgroundColor="#fcdab5"
+          topRightStyle={{
+            fontSize: 12,
+            fontWeight: "700",
+            color: "#505e80"
+          }}
+          bottomRightStyle={{
+            fontSize: 16,
+            fontWeight: "bold",
+            color: "#505e80"
+          }}
           content="Lorem impsum"
         />
       </View>

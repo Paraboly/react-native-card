@@ -81,10 +81,14 @@ npm i @paraboly/react-native-card
 | shadowStyle          |   style   | default shadow style | change the card's shadow style                     |
 | defaultTitle         |  string   |          ""          | set the default title if title prop is not set     |
 | defaultContent       |  string   |          ""          | set the default content if content prop is not set |
+| titleStyle           |   style   |        style         | set your own style for main title component        |
+| contentStyle         |   style   |        style         | set your own style for content component           |
+| bottomRightStyle     |   style   |        style         | set your own style for bottom right component      |
 | bottomRightComponent | component |      component       | use your own component for bottom right side       |
 | bottomRightText      |  string   |          ""          | set the bottom right text                          |
 | bottomRightFontSize  |  number   |          20          | set the bottom right text's font size              |
 | bottomRightColor     |   color   |      "#505e80"       | set the bottom right text's font color             |
+| topRightStyle        |   style   |        style         | set your own style for top right component         |
 | topRightComponent    | component |      component       | use your own component for top right side          |
 | topRightText         |  string   |          ""          | set the top right text                             |
 | topRightFontSize     |  number   |          16          | set the top right text's font size                 |
