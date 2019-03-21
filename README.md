@@ -96,6 +96,7 @@ npm i @paraboly/react-native-card
 | topRightColor        |   color   |      "#505e80"       | set the top right text's font color                |
 | containerHeight      |  number   |         null         | set the content's container height                 |
 | iconBackgroundColor  |   color   |        "pink"        | set the icon's background color                    |
+| borderRadius         |   number   |         15          | set the conten'ts container border radius          |
 
 
 ## Author
