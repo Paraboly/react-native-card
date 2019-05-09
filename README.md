@@ -7,10 +7,14 @@ Fully customizable Card View for React Native.
 ![expo-compatible](https://img.shields.io/badge/Expo-compatible-9cf.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
+## Card Component
+
 <p align="center">
 <img alt="Paraboly React Native Card" src="https://github.com/Paraboly/react-native-card/blob/master/assets/Screenshots/example.png" width="49.7%"/>
 <img alt="Paraboly React Native Card" src="https://github.com/Paraboly/react-native-card/blob/master/assets/Screenshots/example2.png" width="49.7%"/>
 </p>
+
+## SimpleCard Component
 
 <p align="center">
 <img alt="Paraboly React Native Card" src="https://github.com/Paraboly/react-native-card/blob/master/assets/Screenshots/example3.png" width="49.7%"/>
