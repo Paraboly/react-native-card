@@ -31,6 +31,7 @@ export default class App extends React.Component {
 
         <View
           style={{
+            marginTop: 16,
             alignItems: "center",
             flexDirection: "column"
           }}
