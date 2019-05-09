@@ -50,6 +50,9 @@ npm i @paraboly/react-native-card
 ## Basic Usage
 
 ```js
+
+  import { Card } from "@paraboly/react-native-card"
+
  <Card
   iconDisable
   title="Title"
@@ -78,6 +81,8 @@ npm i @paraboly/react-native-card
 ## SimpleCard Basic Usage
 
 ```js
+import { SimpleCard } from "@paraboly/react-native-card"
+
 <SimpleCard title="Dynamic width & height simple card" />
 ```
 
