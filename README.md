@@ -45,6 +45,7 @@ npm i @paraboly/react-native-card
 "react-native-material-ripple": ">= 0.8.x",
 "react-native-iphone-x-helper": ">= 1.2.x",
 "react-native-dynamic-vector-icons": ">= x.x.x"
+"react-native-vector-icons": ">= x.x.x"
 ```
 
 ## Basic Usage
