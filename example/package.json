@@ -10,12 +10,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "react": "16.9.0",
-    "react-native": "0.61.5",
     "@freakycoder/react-native-helpers": "0.1.2",
     "@paraboly/react-native-card": "^0.2.12",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
     "react-native-dynamic-vector-icons": "0.0.3",
-    "react-native-material-ripple": "^0.8.0"
+    "react-native-material-ripple": "^0.8.0",
+    "react-native-vector-icons": "^6.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
@@ -29,5 +30,10 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
   }
 }
