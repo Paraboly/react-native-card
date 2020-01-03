@@ -23,8 +23,8 @@ Fully customizable Card View for React Native.
 
 ## Components included:
 
-- [x] [Card]()
-- [x] [SimpleCard]()
+- [x] [Card](https://github.com/Paraboly/react-native-card#basic-usage)
+- [x] [SimpleCard](https://github.com/Paraboly/react-native-card#simplecard-basic-usage)
 
 ## Installation
 
