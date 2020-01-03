@@ -21,7 +21,6 @@ Fully customizable Card View for React Native.
 <img alt="Paraboly React Native Card" src="https://github.com/Paraboly/react-native-card/blob/master/assets/Screenshots/example4.png" width="49.7%"/>
 </p>
 
-
 ## Components included:
 
 - [x] [Card]()
@@ -40,32 +39,31 @@ npm i @paraboly/react-native-card
 ##### IMPORTANT! You need install them.
 
 ```
+"@freakycoder/react-native-helpers": ">= 0.1.2",
 "react": ">= 16.x",
 "react-native": ">= 0.55.x",
 "react-native-material-ripple": ">= 0.8.x",
-"react-native-iphone-x-helper": ">= 1.2.x",
 "react-native-dynamic-vector-icons": ">= x.x.x"
 "react-native-vector-icons": ">= x.x.x"
 ```
 
 ## Basic Usage
 
-```js
+```jsx
+import { Card } from "@paraboly/react-native-card";
 
-  import { Card } from "@paraboly/react-native-card"
-
- <Card
+<Card
   iconDisable
   title="Title"
   content="Main Content"
   bottomRightText="30"
   onPress={() => {}}
-/>
+/>;
 ```
 
 ## Card with Icon
 
-```js
+```jsx
 <Card
   title="Title"
   iconName="home"
@@ -81,15 +79,15 @@ npm i @paraboly/react-native-card
 
 ## SimpleCard Basic Usage
 
-```js
-import { SimpleCard } from "@paraboly/react-native-card"
+```jsx
+import { SimpleCard } from "@paraboly/react-native-card";
 
-<SimpleCard title="Dynamic width & height simple card" />
+<SimpleCard title="Dynamic width & height simple card" />;
 ```
 
 ## SimpleCard Custom Usage
 
-```js
+```jsx
 <SimpleCard
   title="Custom width & dynamic height simple card: Multiple Lines"
   styles={{ width: 200 }}
@@ -103,8 +101,7 @@ import { SimpleCard } from "@paraboly/react-native-card"
 
 ### Configuration - Props
 
-#### Card : 
-
+#### Card
 
 | Property             |    Type    |       Default        | Description                                        |
 | -------------------- | :--------: | :------------------: | -------------------------------------------------- |
@@ -144,7 +141,7 @@ import { SimpleCard } from "@paraboly/react-native-card"
 | iconBackgroundColor  |   color    |        "pink"        | set the icon's background color                    |
 | borderRadius         |   number   |          15          | set the conten'ts container border radius          |
 
-#### SimpleCard : 
+#### SimpleCard
 
 | Property                    |    Type    |          Default           | Description                                    |
 | --------------------------- | :--------: | :------------------------: | ---------------------------------------------- |

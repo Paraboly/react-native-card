@@ -1,6 +1,6 @@
 {
   "name": "@paraboly/react-native-card",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "description": "Fully customizable Card View for React Native.",
   "keywords": [
     "react-native",
@@ -20,10 +20,10 @@
   "author": "FreakyCoder <kurayogun@paraboly.com>",
   "license": "MIT",
   "peerDependencies": {
+    "@freakycoder/react-native-helpers": ">= 0.1.2",
     "react": ">= 16.x",
     "react-native": ">= 0.55.x",
     "react-native-material-ripple": ">= 0.8.x",
-    "react-native-iphone-x-helper": ">= 1.2.x",
     "react-native-dynamic-vector-icons": ">= x.x.x"
   }
 }
