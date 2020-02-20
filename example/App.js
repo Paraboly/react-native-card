@@ -16,7 +16,8 @@ export default class App extends React.Component {
           topRightText="50/306"
           bottomRightText="30 km"
           iconBackgroundColor="#fcd"
-          content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          textContainerNumberOfLines={null}
+          content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Fusce a risus id libero sodales tempor sit amet non felis. Pellentesque id scelerisque risus. Aenean imperdiet vulputate auctor. Morbi fringilla nisi quis diam cursus tincidunt. Quisque consectetur porttitor efficitur. Nam in cursus neque. Vestibulum ornare scelerisque velit, in pretium mauris commodo ut. Nulla neque nulla, tristique sit amet nibh non, gravida laoreet nulla. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
           topRightStyle={{
             fontSize: 12,
             fontWeight: "700",
