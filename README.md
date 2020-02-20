@@ -103,43 +103,44 @@ import { SimpleCard } from "@paraboly/react-native-card";
 
 #### Card
 
-| Property             |    Type    |       Default        | Description                                        |
-| -------------------- | :--------: | :------------------: | -------------------------------------------------- |
-| title                |   string   |          ""          | use this to change the title                       |
-| style                |   style    |        style         | use this to change the main container's style      |
-| onPress              |  function  |         null         | set the onPress function                           |
-| content              |   string   |          ""          | set content                                        |
-| iconComponent        | component  |         Icon         | use your own icon component                        |
-| iconName             |   string   |        "home"        | set icon from dynamic vector icons                 |
-| iconColor            |   color    |       #ffffff        | set icon's color                                   |
-| iconSize             |   number   |          16          | set icon's size                                    |
-| iconType             |   string   |       "Entypo"       | set icon's family type                             |
-| iconDisable          |  boolean   |        false         | disable the whole icon component                   |
-| shadowStyle          |   style    | default shadow style | change the card's shadow style                     |
-| defaultTitle         |   string   |          ""          | set the default title if title prop is not set     |
-| defaultContent       |   string   |          ""          | set the default content if content prop is not set |
-| titleStyle           |   style    |        style         | set your own style for main title component        |
-| titleColor           |   color    |      "#505e80"       | change title color                                 |
-| titleFontSize        |   number   |          18          | change title's font size                           |
-| titleFontFamily      | FontFamily |       default        | change title's font family                         |
-| contextStyle         |   style    |        style         | set your own style for main context component      |
-| contextTextColor     |   color    |      "#959aa8"       | change context color                               |
-| contextFontSize      |   number   |          14          | change context's font size                         |
-| contextFontFamily    | FontFamily |       default        | change context's font family                       |
-| contentStyle         |   style    |        style         | set your own style for content component           |
-| bottomRightStyle     |   style    |        style         | set your own style for bottom right component      |
-| bottomRightComponent | component  |      component       | use your own component for bottom right side       |
-| bottomRightText      |   string   |          ""          | set the bottom right text                          |
-| bottomRightFontSize  |   number   |          20          | set the bottom right text's font size              |
-| bottomRightColor     |   color    |      "#505e80"       | set the bottom right text's font color             |
-| topRightStyle        |   style    |        style         | set your own style for top right component         |
-| topRightComponent    | component  |      component       | use your own component for top right side          |
-| topRightText         |   string   |          ""          | set the top right text                             |
-| topRightFontSize     |   number   |          16          | set the top right text's font size                 |
-| topRightColor        |   color    |      "#505e80"       | set the top right text's font color                |
-| containerHeight      |   number   |         null         | set the content's container height                 |
-| iconBackgroundColor  |   color    |        "pink"        | set the icon's background color                    |
-| borderRadius         |   number   |          15          | set the conten'ts container border radius          |
+| Property                   |    Type    |       Default        | Description                                                                                          |
+| -------------------------- | :--------: | :------------------: | ---------------------------------------------------------------------------------------------------- |
+| title                      |   string   |          ""          | use this to change the title                                                                         |
+| style                      |   style    |        style         | use this to change the main container's style                                                        |
+| onPress                    |  function  |         null         | set the onPress function                                                                             |
+| content                    |   string   |          ""          | set content                                                                                          |
+| iconComponent              | component  |         Icon         | use your own icon component                                                                          |
+| iconName                   |   string   |        "home"        | set icon from dynamic vector icons                                                                   |
+| iconColor                  |   color    |       #ffffff        | set icon's color                                                                                     |
+| iconSize                   |   number   |          16          | set icon's size                                                                                      |
+| iconType                   |   string   |       "Entypo"       | set icon's family type                                                                               |
+| iconDisable                |  boolean   |        false         | disable the whole icon component                                                                     |
+| shadowStyle                |   style    | default shadow style | change the card's shadow style                                                                       |
+| defaultTitle               |   string   |          ""          | set the default title if title prop is not set                                                       |
+| defaultContent             |   string   |          ""          | set the default content if content prop is not set                                                   |
+| titleStyle                 |   style    |        style         | set your own style for main title component                                                          |
+| titleColor                 |   color    |      "#505e80"       | change title color                                                                                   |
+| titleFontSize              |   number   |          18          | change title's font size                                                                             |
+| titleFontFamily            | FontFamily |       default        | change title's font family                                                                           |
+| contextStyle               |   style    |        style         | set your own style for main context component                                                        |
+| contextTextColor           |   color    |      "#959aa8"       | change context color                                                                                 |
+| contextFontSize            |   number   |          14          | change context's font size                                                                           |
+| contextFontFamily          | FontFamily |       default        | change context's font family                                                                         |
+| contentStyle               |   style    |        style         | set your own style for content component                                                             |
+| bottomRightStyle           |   style    |        style         | set your own style for bottom right component                                                        |
+| bottomRightComponent       | component  |      component       | use your own component for bottom right side                                                         |
+| bottomRightText            |   string   |          ""          | set the bottom right text                                                                            |
+| bottomRightFontSize        |   number   |          20          | set the bottom right text's font size                                                                |
+| bottomRightColor           |   color    |      "#505e80"       | set the bottom right text's font color                                                               |
+| topRightStyle              |   style    |        style         | set your own style for top right component                                                           |
+| topRightComponent          | component  |      component       | use your own component for top right side                                                            |
+| topRightText               |   string   |          ""          | set the top right text                                                                               |
+| topRightFontSize           |   number   |          16          | set the top right text's font size                                                                   |
+| topRightColor              |   color    |      "#505e80"       | set the top right text's font color                                                                  |
+| containerHeight            |   number   |         null         | set the content's container height                                                                   |
+| iconBackgroundColor        |   color    |        "pink"        | set the icon's background color                                                                      |
+| borderRadius               |   number   |          15          | set the conten'ts container border radius                                                            |
+| textContainerNumberOfLines |   number   |         null         | you can set the number of lines for the text container if you **do not** want the **dynamic height** |
 
 #### SimpleCard
 
