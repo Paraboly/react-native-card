@@ -11,22 +11,22 @@ type CustomStyleProp = StyleProp<ViewStyle> | Array<StyleProp<ViewStyle>>;
 type CustomTextStyleProp = StyleProp<TextStyle> | Array<StyleProp<TextStyle>>;
 
 interface ISimpleCardProps {
+  text: string;
   backgroundColor?: string;
   style?: CustomStyleProp;
   shadowStyle?: CustomStyleProp;
   innerContainerStyle?: CustomStyleProp;
-  cardTitleTextStyle?: CustomTextStyleProp;
-  title: string;
-  onPress: () => void;
+  cardTextStyle?: CustomTextStyleProp;
+  onPress?: () => void;
 }
 
 const SimpleCard: React.FC<ISimpleCardProps> = ({
-  title,
+  text,
   style,
   onPress,
-  innerContainerStyle,
   shadowStyle,
-  cardTitleTextStyle,
+  cardTextStyle,
+  innerContainerStyle,
   backgroundColor = "#fff",
   ...rest
 }) => {
@@ -34,9 +34,7 @@ const SimpleCard: React.FC<ISimpleCardProps> = ({
     <RNBounceable onPress={onPress} style={[styles.container, style]} {...rest}>
       <Androw style={[styles.shadowStyle, shadowStyle]}>
         <View style={[_containerGlue(backgroundColor), innerContainerStyle]}>
-          <Text style={[styles.cardTitleTextStyle, cardTitleTextStyle]}>
-            {title}
-          </Text>
+          <Text style={[styles.cardTextStyle, cardTextStyle]}>{text}</Text>
         </View>
       </Androw>
     </RNBounceable>

@@ -7,33 +7,41 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@freakycoder/react-native-helpers": "0.1.2",
-    "@paraboly/react-native-card": "^0.3.0",
-    "react": "16.9.0",
-    "react-native": "0.61.5",
-    "react-native-dynamic-vector-icons": "0.0.3",
-    "react-native-material-ripple": "^0.8.0",
-    "react-native-vector-icons": "^6.6.0"
+    "@freakycoder/react-native-bounceable": "^0.2.4",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-androw": "0.0.34",
+    "react-native-dynamic-vector-icons": "^1.1.4",
+    "react-native-vector-icons": "^7.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.7",
-    "@babel/runtime": "^7.7.7",
-    "@react-native-community/eslint-config": "^0.0.5",
-    "babel-jest": "^24.9.0",
-    "eslint": "^6.8.0",
-    "jest": "^24.9.0",
-    "metro-react-native-babel-preset": "^0.57.0",
-    "react-test-renderer": "16.9.0"
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "@types/jest": "^25.2.3",
+    "@types/react-native": "^0.63.2",
+    "@types/react-test-renderer": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1",
+    "typescript": "^3.8.3"
   },
   "jest": {
-    "preset": "react-native"
-  },
-  "rnpm": {
-    "assets": [
-      "./src/assets/fonts"
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
     ]
   }
 }

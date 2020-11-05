@@ -18,16 +18,14 @@
   ],
   "homepage": "https://www.paraboly.com",
   "bugs": "https://github.com/Paraboly/react-native-card/issues",
-  "main": "./lib/src/index.js",
+  "main": "./build/dist/index.js",
   "repository": "git@github.com:Paraboly/react-native-card.git",
   "author": "FreakyCoder <kurayogun@paraboly.com>",
   "license": "MIT",
   "peerDependencies": {
-    "@freakycoder/react-native-helpers": ">= 0.1.2",
-    "react": ">= 16.x",
-    "react-native": ">= 0.55.x",
-    "react-native-material-ripple": ">= 0.8.x",
-    "react-native-dynamic-vector-icons": ">= x.x.x"
+    "react-native-vector-icons": ">= 7.1.0",
+    "react-native-dynamic-vector-icons": ">= 1.1.4",
+    "@freakycoder/react-native-bounceable": ">= 0.2.4"
   },
   "scripts": {
     "build": "cd lib && tsc && cp ../package.json ../build/dist/ && Echo Build completed!",

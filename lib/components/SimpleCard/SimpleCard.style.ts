@@ -3,7 +3,7 @@ import { ViewStyle, TextStyle, StyleSheet } from "react-native";
 interface Style {
   container: ViewStyle;
   shadowStyle: ViewStyle;
-  cardTitleTextStyle: TextStyle;
+  cardTextStyle: TextStyle;
 }
 
 export const _containerGlue = (backgroundColor: string): ViewStyle => ({
@@ -27,7 +27,7 @@ export default StyleSheet.create<Style>({
       height: 1,
     },
   },
-  cardTitleTextStyle: {
+  cardTextStyle: {
     fontSize: 14,
     color: "#505e80",
     alignItems: "center",

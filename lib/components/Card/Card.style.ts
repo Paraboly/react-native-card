@@ -32,7 +32,6 @@ export default StyleSheet.create<Style>({
     opacity: 1,
     position: "absolute",
     alignSelf: "flex-end",
-    justifyContent: "flex-end",
   },
   topRightContainer: {
     top: 0,

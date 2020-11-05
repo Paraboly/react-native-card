@@ -10,14 +10,14 @@ import styles, { iconCircle } from "./IconContainer.style";
 type CustomStyleProp = StyleProp<ViewStyle> | Array<StyleProp<ViewStyle>>;
 
 interface IIconContainerProps {
-  iconStyle?: CustomStyleProp;
   iconName?: string;
   iconType?: string;
   iconSize?: number;
   iconColor?: string;
   iconDisable?: boolean;
-  iconComponent?: React.ReactChild;
   iconBackgroundColor?: string;
+  iconStyle?: CustomStyleProp;
+  iconComponent?: React.ReactChild;
 }
 
 const IconContainer: React.FC<IIconContainerProps> = ({
@@ -34,18 +34,16 @@ const IconContainer: React.FC<IIconContainerProps> = ({
   return (
     <View style={[styles.iconContainer, iconStyle]}>
       <View style={iconCircle(iconDisable, iconBackgroundColor)}>
-        <Androw style={styles.shadowStyle}>
-          <View style={[styles.iconStyle]}>
-            {iconComponent || (
-              <Icon
-                name={iconName}
-                type={iconType}
-                size={iconSize}
-                color={iconColor}
-              />
-            )}
-          </View>
-        </Androw>
+        <View style={[styles.iconStyle]}>
+          {iconComponent || (
+            <Icon
+              name={iconName}
+              type={iconType}
+              size={iconSize}
+              color={iconColor}
+            />
+          )}
+        </View>
       </View>
     </View>
   );

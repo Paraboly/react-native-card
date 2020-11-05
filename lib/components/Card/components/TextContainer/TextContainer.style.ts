@@ -9,6 +9,7 @@ export const _container = (iconDisable: boolean): ViewStyle => ({
 export const _descriptionTextStyle = (iconDisable: boolean): TextStyle => ({
   top: 5,
   fontSize: 14,
+  minHeight: 50,
   lineHeight: 15,
   letterSpacing: 0,
   color: "#959aa8",

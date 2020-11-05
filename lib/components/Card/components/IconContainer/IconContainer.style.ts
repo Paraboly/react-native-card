@@ -18,6 +18,7 @@ export const iconCircle = (
   display: iconDisable ? "none" : "flex",
   position: "absolute",
 });
+
 export default StyleSheet.create<Style>({
   iconContainer: {
     position: "absolute",
