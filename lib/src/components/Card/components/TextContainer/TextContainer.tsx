@@ -12,26 +12,26 @@ type CustomStyleProp = StyleProp<ViewStyle> | Array<StyleProp<ViewStyle>>;
 type CustomTextStyleProp = StyleProp<TextStyle> | Array<StyleProp<TextStyle>>;
 
 interface ITextContainerProps {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   iconDisable?: boolean;
-  descriptionNumberOfLines: number;
-  style?: CustomStyleProp;
+  descriptionNumberOfLines?: number;
+  textContainerStyle?: CustomStyleProp;
   titleTextStyle?: CustomTextStyleProp;
   descriptionTextStyle?: CustomTextStyleProp;
 }
 
 const TextContainer: React.FC<ITextContainerProps> = ({
-  style,
   title,
   description,
   titleTextStyle,
+  textContainerStyle,
   iconDisable = false,
   descriptionTextStyle,
   descriptionNumberOfLines = 3,
 }) => {
   return (
-    <View style={[_container(iconDisable), style]}>
+    <View style={[_container(iconDisable), textContainerStyle]}>
       <Text style={[styles.titleTextStyle, titleTextStyle]}>{title}</Text>
       <Text
         numberOfLines={descriptionNumberOfLines}
