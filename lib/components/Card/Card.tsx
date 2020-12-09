@@ -1,6 +1,5 @@
 import * as React from "react";
 import { View, Text, StyleProp, ViewStyle, TextStyle } from "react-native";
-import Androw from "react-native-androw";
 import RNBounceable from "@freakycoder/react-native-bounceable";
 /**
  * ? Local Imports
@@ -12,7 +11,7 @@ import IconContainer from "./components/IconContainer/IconContainer";
 type CustomStyleProp = StyleProp<ViewStyle> | Array<StyleProp<ViewStyle>>;
 type CustomTextStyleProp = StyleProp<TextStyle> | Array<StyleProp<TextStyle>>;
 
-interface IRNNewComponentProps {
+interface ICardProps {
   style?: CustomStyleProp;
   onPress?: () => void;
   iconDisable?: boolean;
@@ -28,7 +27,7 @@ interface IRNNewComponentProps {
   bottomRightTextStyle?: CustomTextStyleProp;
 }
 
-const RNNewComponent: React.FC<IRNNewComponentProps> = ({
+const Card: React.FC<ICardProps> = ({
   style,
   onPress,
   shadowStyle,
@@ -63,7 +62,7 @@ const RNNewComponent: React.FC<IRNNewComponentProps> = ({
     );
 
   return (
-    <Androw style={[styles.shadowStyle, shadowStyle]}>
+    <View style={[styles.shadowStyle, shadowStyle]}>
       <RNBounceable
         {...rest}
         style={[
@@ -84,8 +83,8 @@ const RNNewComponent: React.FC<IRNNewComponentProps> = ({
           {renderBottomRightComponent()}
         </View>
       </RNBounceable>
-    </Androw>
+    </View>
   );
 };
 
-export default RNNewComponent;
+export default Card;

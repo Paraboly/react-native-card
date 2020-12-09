@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import { Card, SimpleCard } from "@paraboly/react-native-card";
+import { Card, SimpleCard } from "./build/dist/index";
 
 export default class App extends React.Component {
   render() {

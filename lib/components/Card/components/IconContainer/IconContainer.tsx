@@ -1,7 +1,7 @@
 import * as React from "react";
 import { View, StyleProp, ViewStyle } from "react-native";
-import Androw from "react-native-androw";
-import Icon from "react-native-dynamic-vector-icons";
+import { Entypo } from "@expo/vector-icons";
+
 /**
  * ? Local Imports
  */
@@ -10,8 +10,8 @@ import styles, { iconCircle } from "./IconContainer.style";
 type CustomStyleProp = StyleProp<ViewStyle> | Array<StyleProp<ViewStyle>>;
 
 interface IIconContainerProps {
+  IconType?: any;
   iconName?: string;
-  iconType?: string;
   iconSize?: number;
   iconColor?: string;
   iconDisable?: boolean;
@@ -23,7 +23,7 @@ interface IIconContainerProps {
 const IconContainer: React.FC<IIconContainerProps> = ({
   iconStyle,
   iconName = "home",
-  iconType = "Entypo",
+  IconType = Entypo,
   iconSize = 26,
   iconColor = "#fff",
   iconDisable = false,
@@ -36,12 +36,7 @@ const IconContainer: React.FC<IIconContainerProps> = ({
       <View style={iconCircle(iconDisable, iconBackgroundColor)}>
         <View style={[styles.iconStyle]}>
           {iconComponent || (
-            <Icon
-              name={iconName}
-              type={iconType}
-              size={iconSize}
-              color={iconColor}
-            />
+            <IconType name={iconName} size={iconSize} color={iconColor} />
           )}
         </View>
       </View>

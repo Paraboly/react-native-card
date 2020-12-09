@@ -1,5 +1,4 @@
 import * as React from "react";
-import Androw from "react-native-androw";
 import RNBounceable from "@freakycoder/react-native-bounceable";
 import { View, Text, StyleProp, ViewStyle, TextStyle } from "react-native";
 /**
@@ -32,11 +31,11 @@ const SimpleCard: React.FC<ISimpleCardProps> = ({
 }) => {
   return (
     <RNBounceable onPress={onPress} style={[styles.container, style]} {...rest}>
-      <Androw style={[styles.shadowStyle, shadowStyle]}>
+      <View style={[styles.shadowStyle, shadowStyle]}>
         <View style={[_containerGlue(backgroundColor), innerContainerStyle]}>
           <Text style={[styles.cardTextStyle, cardTextStyle]}>{text}</Text>
         </View>
-      </Androw>
+      </View>
     </RNBounceable>
   );
 };

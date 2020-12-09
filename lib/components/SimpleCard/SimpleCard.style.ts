@@ -26,6 +26,7 @@ export default StyleSheet.create<Style>({
       width: 2,
       height: 1,
     },
+    elevation: 5,
   },
   cardTextStyle: {
     fontSize: 14,
