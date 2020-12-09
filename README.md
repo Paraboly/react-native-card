@@ -25,7 +25,7 @@ Fully customizable Card View for React Native.
 
 Finally version 1 is here after 2 years :) Completely re-written with Typescript and much better props and customization options.
 
-## Components included:
+## Components included
 
 - [x] [Card](https://github.com/Paraboly/react-native-card#basic-usage)
 - [x] [SimpleCard](https://github.com/Paraboly/react-native-card#simplecard-basic-usage)
@@ -40,13 +40,33 @@ npm i @paraboly/react-native-card
 
 ## Peer Dependencies
 
-##### IMPORTANT! You need install them.
+##### IMPORTANT! You need install them
 
 ```bash
 "react-native-vector-icons": ">= 7.1.0",
 "react-native-dynamic-vector-icons": ">= 1.1.4",
 "@freakycoder/react-native-bounceable": ">= 0.2.4"
 ```
+
+# Expo Version
+
+## Installation
+
+Add the dependency:
+
+```ruby
+npm i Paraboly/react-native-card#expo
+```
+
+## Expo Dependencies
+
+##### IMPORTANT! You need install them
+
+```bash
+"@freakycoder/react-native-bounceable": ">= 0.2.4"
+```
+
+`IconType` prop is available to set any icon set from `@expo/vector-icons`
 
 ## Basic Usage
 
@@ -100,7 +120,7 @@ import { SimpleCard } from "@paraboly/react-native-card";
 
 ### Configuration - Props
 
-#### New Configuration Documentation is available soon!
+#### New Configuration Documentation is available soon
 
 ## Author
 
