@@ -12,7 +12,7 @@ import IconContainer from "./components/IconContainer/IconContainer";
 type CustomStyleProp = StyleProp<ViewStyle> | Array<StyleProp<ViewStyle>>;
 type CustomTextStyleProp = StyleProp<TextStyle> | Array<StyleProp<TextStyle>>;
 
-interface IRNNewComponentProps {
+interface ICardProps {
   style?: CustomStyleProp;
   onPress?: () => void;
   iconDisable?: boolean;
@@ -28,7 +28,7 @@ interface IRNNewComponentProps {
   bottomRightTextStyle?: CustomTextStyleProp;
 }
 
-const RNNewComponent: React.FC<IRNNewComponentProps> = ({
+const Card: React.FC<ICardProps> = ({
   style,
   onPress,
   shadowStyle,
@@ -88,4 +88,4 @@ const RNNewComponent: React.FC<IRNNewComponentProps> = ({
   );
 };
 
-export default RNNewComponent;
+export default Card;
