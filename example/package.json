@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@freakycoder/react-native-bounceable": "^0.2.4",
+    "@paraboly/react-native-card": "^1.0.1",
     "react": "16.13.1",
     "react-native": "0.63.3",
     "react-native-androw": "0.0.34",
