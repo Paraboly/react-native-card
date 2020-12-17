@@ -78,8 +78,8 @@ const Card: React.FC<ICardProps> = ({
         onPress={onPress}
       >
         <View style={styles.contentContainer}>
-          <IconContainer {...rest} />
-          <TextContainer {...rest} />
+          <IconContainer iconDisable={iconDisable} {...rest} />
+          <TextContainer iconDisable={iconDisable} {...rest} />
           {renderTopRightComponent()}
           {renderBottomRightComponent()}
         </View>
