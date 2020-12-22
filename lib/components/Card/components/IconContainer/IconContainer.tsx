@@ -30,7 +30,6 @@ const IconContainer: React.FC<IIconContainerProps> = ({
   iconComponent,
   iconBackgroundColor = "#fcdab5",
 }) => {
-  console.log("Icon Disable: ", iconDisable);
   if (iconDisable) return null;
   return (
     <View style={[styles.iconContainer, iconStyle]}>
