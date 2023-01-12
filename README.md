@@ -120,7 +120,65 @@ import { SimpleCard } from "@paraboly/react-native-card";
 
 ### Configuration - Props
 
-#### New Configuration Documentation is available soon
+backgroundColor (String)
+The colour of the card's main background area
+
+borderRadius (Number)
+Changes the curvature size of the corners
+
+bottomRightComponent (JSX.Element)
+
+bottomRightText (String)
+Text displayed at the bottom right of the card
+
+bottomRightTextStyle (CustomTextStyleProp)
+Styling for the bottom right text
+
+containerHeight (Number)
+The height of the card
+
+description (String)
+The smaller descriptive text in the card
+
+iconBackgroundColor (String)
+The color of the area behind the icon
+
+iconColor (String)
+The colour of the icon
+
+iconDisable (Boolean)
+
+iconName (String)
+The name of the icon displayed. To hide the icon leave blank along with iconType (iconName="", iconType="")
+
+iconSize (Number)
+The size of the icon
+
+iconType (String)
+The icon library that the icon you want to use comes from
+Choose from: "FontAwesome", "AntDesign", "MaterialIcons", "EvilIcons", "Entypo", "Foundation", "Ionicons", "MaterialCommunityIcons", "Zocial", "Octicons", "SimpleLineIcons", "Fontisto", "Feather", "FontAwesome5". To hide the icon leave blank along with iconName(iconName="", iconType="")
+
+onPress (() => void)
+Function to execute on press
+
+shadowStyle (CustomStyleProp)
+
+style (CustomStyleProp)
+Styling for the card
+
+textContainerNumberOfLines (Number)
+The number of lines in the card
+
+title (String)
+The text contained in the title area of the card
+
+topRightComponent (JSX.Element)
+
+topRightText(String)
+Text displayed at the top right of the card
+
+topRightTextStyle (CustomTextStyleProp)
+Styling for the top right text
 
 ## Author
 
