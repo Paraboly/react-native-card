@@ -68,6 +68,8 @@ npm i Paraboly/react-native-card#expo
 
 `IconType` prop is available to set any icon set from `@expo/vector-icons`
 
+You will also need to follow the installation instructions for [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons#installation)
+
 ## Basic Usage
 
 ```jsx
