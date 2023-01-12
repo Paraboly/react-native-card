@@ -122,9 +122,9 @@ import { SimpleCard } from "@paraboly/react-native-card";
 
 | Name                          | Type                  | Description                                                                        |
 | ----------------------------- | --------------------- | ---------------------------------------------------------------------------------- |
-| `backgroundColor`             | `String`              | The colour of the card's main background area                                   |
-| `borderRadius`                | `Number`              | Changes the curvature size of the corners                                       |
-| `bottomRightComponent`        | `JSX.Element`         |                                                                            |
+| `backgroundColor`             | `String`              | The colour of the card's main background area
+| `borderRadius`                | `Number`              | Changes the curvature size of the corners
+| `bottomRightComponent`        | `JSX.Element`         | 
 | `bottomRightText`             | `String`              | Text displayed at the bottom right of the card
 | `bottomRightTextStyle`        | `CustomTextStyleProp` | Styling for the bottom right text
 | `containerHeight`             | `Number`              | The height of the card
